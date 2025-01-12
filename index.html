@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Quiz App</title>
+</head>
+<body>
+
+    <video autoplay muted loop id="bg-video">
+        <source src="d026727f3ae1671b17366833a097cb77.mp4" type="video/mp4"> 
+        Your browser does not support the video tag.
+    </video>
+
+    <h1 class="head">QuizzyCoder</h1>
+    <p>Welcome to QuizzyCoder</p>
+    
+    <div class="box1">
+        <div class="box4">
+            <a href="start.html" class="start">Start Quiz</a>
+            <a href="login.html" class="login">Login</a>
+        </div>
+    </div>
+
+    <footer>
+        © 2024 Quiz App. All rights reserved.
+    </footer>
+
+    <script>
+        document.querySelector('.start').addEventListener('click', function (event){
+            event.preventDefault();
+            alert("You need to login first");
+        });
+    </script>
+    <script src="scripts.js"></script>
+</body>
+</html>
